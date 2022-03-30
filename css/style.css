@@ -1,0 +1,29 @@
+
+/* Se aplica globalmente en el documento HTML*/
+:root { 
+    --main-bg-color: brown;
+
+    --font-style-normal: brown;
+    --font-style-italic: brown;
+    --font-style-oblique: brown;
+
+    --font-weight-normal: brown;
+    --font-weight-blod: brown;
+    --font-weight-ligther: brown;
+    --font-weight-bolder: brown;
+}
+
+@font-face {
+    font-family: fac;
+    src: url();
+}
+
+
+*[font-style^="normal"] {
+    font-size: 64px;
+}
+
+*[font-style^="italic"] {
+    font-size: 64px;
+}
+*[font-style^="oblique"] { color: s; }
